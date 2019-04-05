@@ -1,0 +1,63 @@
+[
+	{
+	"url":"http://localhost:23990/api/client",
+	"response":[{"ID_Clienta":1,"FIO":"Сидоров А. М"},{"ID_Clienta":2,"FIO":"Петров А. Г"},{"ID_Clienta":3,"FIO":"Васильев А. П"}],
+	"method":"GET"
+	},
+
+	{
+	"url":"http://localhost:23990/api/service",
+	"response":[{"Id_service":1,"Name_service":"Ремонт телевизора"},{"Id_service":2,"Name_service":"Ремонт телефона"}],
+	"method":"GET"
+	},
+	{	
+	"url":"http://localhost:23990/api/zayavki",
+	"response":[{"Id_zakazi":1,"Id_clienta":1,"Id_service":2},{"Id_zakazi":2,"Id_clienta":2,"Id_service":1}],
+	"method":"GET"
+	},
+  {
+		"url": "http://localhost:23990/api/client?FIO=Петров П.П",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://localhost:23990/api/service?Name_service=Ремонт квартир",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://localhost:23990/api/zayavki?Id_clienta=3&Id_service_=3",
+		"response": { "result": "Запись добавлена" },
+		"method": "POST"
+	},
+	{
+		"url": "http://localhost:23990/api/client?Id_clienta=1&FIO=Иванов Иван Иванович",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://localhost:23990/api/service?Id_service_=1&Name_service=Ремонт автомобиля",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://localhost/api/orders?id=1&client_id=1&service_id=2",
+		"response": { "result": "Запись обновлена" },
+		"method": "PUT"
+	},
+	{
+		"url": "http://localhost:23990/api/client/Id_clienta=4",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+	{
+		"url": "http://localhost:23990/api/service?Id_service=3",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+	{
+		"url": "http://localhost:23990/api/zayavki/id=3",
+		"response": { "result": "Запись удалена" },
+		"method": "DELETE"
+	},
+]

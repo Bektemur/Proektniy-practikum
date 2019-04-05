@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище lab_2ModelContainer" CdmEntityContainer="lab_2Entities2">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="lab_2Model.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="ID_Clienta" ColumnName="ID_Clienta" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Service">
+      <EntityTypeMapping TypeName="lab_2Model.Service">
+        <MappingFragment StoreEntitySet="Service">
+          <ScalarProperty Name="Id_service" ColumnName="Id_service" />
+          <ScalarProperty Name="Name_service" ColumnName="Name_service" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zayavki">
+      <EntityTypeMapping TypeName="lab_2Model.Zayavki">
+        <MappingFragment StoreEntitySet="Zayavki">
+          <ScalarProperty Name="Id_zakazi" ColumnName="Id_zakazi" />
+          <ScalarProperty Name="Id_clienta" ColumnName="Id_clienta" />
+          <ScalarProperty Name="Id_service" ColumnName="Id_service" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

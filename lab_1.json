@@ -1,0 +1,16 @@
+[{
+    "url":"http://localhost:4079/api/values?a=1&b=4&c=-1",
+    "response":[{"x1":0.23606797749978981,"x2":-4.23606797749979}],
+    "method":"GET"
+},
+{   "url":"http://localhost:4079/api/date/?date=20.03.2020",
+    "response":[{"day_of_the_week":"пятница"}],
+    "method":"GET"},
+{    "url":"http://localhost:4079/api/fib/?fib=50",
+    "response":[{"Fibbonachi":55}],
+    "method":"GET"
+},
+{   "url":"http://localhost:4079/api/obl/?reg=70",
+    "response":[{"region":"Томская область"}],
+    "method":"GET"}
+]
