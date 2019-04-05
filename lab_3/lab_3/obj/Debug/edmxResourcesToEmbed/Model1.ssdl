@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище lab_2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID_Clienta" />
+    </Key>
+    <Property Name="ID_Clienta" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id_service" />
+    </Key>
+    <Property Name="Id_service" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name_service" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Zayavki">
+    <Key>
+      <PropertyRef Name="Id_zakazi" />
+    </Key>
+    <Property Name="Id_zakazi" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Id_clienta" Type="int" Nullable="false" />
+    <Property Name="Id_service" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Хранилище lab_2ModelContainer">
+    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Service" EntityType="Self.Service" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Zayavki" EntityType="Self.Zayavki" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
