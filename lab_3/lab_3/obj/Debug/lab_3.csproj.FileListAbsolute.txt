@@ -1,0 +1,13 @@
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\lab_3.dll.config
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\lab_3.dll
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\lab_3.pdb
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\obj\Debug\lab_3.csprojAssemblyReference.cache
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\obj\Debug\lab_3.csproj.CoreCompileInputs.cache
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\obj\Debug\lab_3.dll
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\obj\Debug\lab_3.pdb
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\EntityFramework.dll
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\EntityFramework.SqlServer.dll
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\EntityFramework.xml
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\EntityFramework.SqlServer.xml
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\bin\ru\EntityFramework.resources.dll
+D:\6 семестр\Проектный практикум\Proektniy-practikum\lab_3\lab_3\obj\Debug\lab_3.csproj.CopyComplete
